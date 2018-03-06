@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113723838-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113723838-1');
+  </script>
+  <meta charset="UTF-8">
+  <title>gtm sample</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.7/marx.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>gtm sample</h1>
+
+  <p>ページ内リンク</p>
+  <ul>
+    <li><a href="#btn1" data-gaevent="link-1">link1</a></li>
+    <li><a href="#btn2" data-gaevent="link-2">link2</a></li>
+    <li><a href="#btn3" data-gaevent="link-3">link3</a></li>
+  </ul>
+
+  <div id="btn1" class="btn"><a href="http://example.com/" data-gaevent="btn-1">Button</a></div>
+
+  <div id="btn2" class="btn"><a href="http://example.com/" data-gaevent="btn-2">Button</a></div>
+
+  <div id="btn3" class="btn"><a href="http://example.com/" data-gaevent="btn-3">Button</a></div>
+
+  <footer>
+    フッタ
+  </footer>
+</main>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
